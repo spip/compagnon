@@ -1,0 +1,18 @@
+* text=auto !eol
+action/compagnon.php -text
+compagnon/_boite.html -text
+compagnon/accueil.html -text
+compagnon/article_redaction[!!-~]_redacteur.html -text
+compagnon/article_redaction.html -text
+/compagnon_administrations.php -text
+/compagnon_fonctions.php -text
+/compagnon_messages.php -text
+/compagnon_pipelines.php -text
+formulaires/configurer_compagnon.html -text
+lang/compagnon_fr.php -text
+lang/paquet-compagnon_fr.php -text
+/paquet.xml -text
+prive/squelettes/contenu/configurer_compagnon.html -text
+prive/style_prive_plugin_compagnon.html -text
+prive/themes/spip/images/compagnon-64.png -text
+prive/themes/spip/images/compagnon_gris-64.png -text
