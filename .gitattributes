@@ -14,7 +14,9 @@ formulaires/reinitialiser_compagnon.php -text
 lang/compagnon.xml -text
 lang/compagnon_fr.php -text
 lang/paquet-compagnon.xml -text
+lang/paquet-compagnon_en.php -text
 lang/paquet-compagnon_fr.php -text
+lang/paquet-compagnon_sk.php -text
 /paquet.xml -text
 prive/javascript/compagnon.js -text
 prive/javascript/jquery.twinkle.js -text
