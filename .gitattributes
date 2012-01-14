@@ -13,6 +13,7 @@ formulaires/reinitialiser_compagnon.html -text
 formulaires/reinitialiser_compagnon.php -text
 lang/compagnon.xml -text
 lang/compagnon_ar.php -text
+lang/compagnon_es.php -text
 lang/compagnon_fr.php -text
 lang/compagnon_sk.php -text
 lang/paquet-compagnon.xml -text
