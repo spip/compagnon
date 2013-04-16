@@ -2,8 +2,8 @@
 action/compagnon.php -text
 compagnon/_boite.html -text
 compagnon/accueil.html -text
-compagnon/article_redaction[!!-~]_redacteur.html -text
 compagnon/article_redaction.html -text
+compagnon/article_redaction_redacteur.html -text
 /compagnon_administrations.php -text
 /compagnon_fonctions.php -text
 /compagnon_messages.php -text
