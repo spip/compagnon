@@ -1,6 +1,8 @@
 <?php
 // This is a SPIP language file  --  Ceci est un fichier langue de SPIP
-// Fichier source, a modifier dans svn://zone.spip.org/spip-zone/_core_/plugins/compagnon/lang/
+// extrait automatiquement de http://trad.spip.net/tradlang_module/compagnon?lang_cible=fr_fem
+// ** ne pas modifier le fichier **
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
@@ -15,13 +17,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_publication_texte' => 'Pour publier une page, il vous faudra créer un article.
 		Il est nécessaire pour cela de créer au moins une rubrique. Vous pouvez le faire dans le menu « Édition » en cliquant « Rubriques ».',
 	'c_accueil_texte' => 'Vous venez d’entrer dans l’espace privé de SPIP.',
-	'c_accueil_texte_revenir' => '
-		Cette page présente l’activité éditoriale récente sur votre site.
+	'c_accueil_texte_revenir' => '		Cette page présente l’activité éditoriale récente sur votre site.
 		Vous pouvez revenir sur cette page à tout instant en cliquant l’icône de maison,
 		sur la partie haute, sous votre nom.',
 	'c_article_redaction' => 'L’article est en cours de rédaction',
 	'c_article_redaction_redacteur' => 'L’article est en cours de rédaction',
-	'c_article_redaction_redacteur_texte' => 'Pour proposer votre article aux administrateurs du site et aux autres rédacteurs,
+	'c_article_redaction_redacteur_texte' => 'Pour proposer votre article aux administratrices du site et aux autres rédactrices,
 		dans le cadre sur le côté, changez « en cours de rédaction » par « proposé à la publication ».',
 	'c_article_redaction_texte' => 'Pour publier cet article sur le site public, il faut changer son statut.
 		Dans le cadre sur le côté, changez « en cours de rédaction » par « publié en ligne ».',
@@ -45,7 +46,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// E
 	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
 			de l’espace privé pour aider à prendre SPIP en main. Souhaitez-vous l’activer ?',
-	'explication_reinitialiser_compagnon' => 'Les messages déjà vus par un auteur ne sont plus affichés ensuite.
+	'explication_reinitialiser_compagnon' => 'Les messages déjà vus par une auteure ne sont plus affichés ensuite.
 			Souhaitez-vous réinitialiser ces messages ?',
 
 	// L
@@ -64,7 +65,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'reinitialisation_ok' => 'La réinitialisation est effectuée.',
 	'reinitialiser' => 'Réinitialiser',
 	'reinitialiser_moi' => 'Oui, uniquement ceux que j’ai déjà lu',
-	'reinitialiser_tous' => 'Oui, quel que soit l’auteur',
+	'reinitialiser_tous' => 'Oui, quelle que soit l’auteure',
 
 	// T
 	'titre_compagnon' => 'Le Compagnon',
