@@ -47,7 +47,6 @@ lang/paquet-compagnon_pt_br.php -text
 lang/paquet-compagnon_ru.php -text
 lang/paquet-compagnon_sk.php -text
 /paquet.xml -text
-prive/javascript/compagnon.js -text
 prive/javascript/jquery.twinkle.js -text
 prive/squelettes/contenu/configurer_compagnon.html -text
 prive/style_prive_plugin_compagnon.html -text
