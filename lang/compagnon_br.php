@@ -12,6 +12,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// C
 	'c_accueil_bienvenue' => 'Degemer mat @nom@',
 	'c_accueil_configurer_site' => 'Kefluniañ ho lec’h',
+	'c_accueil_configurer_site_texte' => 'An dra gentañ d’ober eo reiñ un anv d’ho lec’hienn.
+Bremañ ez eo anvet « @nom@ ». Dispaket eo an anv en nec’h d’ar bajenn-mañ.
+En ur glikañ warnañ, e vo tu deoc’h kemmañ e anv, met ivez stagañ ul logo pe ul slogan warnañ.
+		',
 	'c_accueil_publication' => 'Embannit !',
 	'c_accueil_publication_texte' => 'Evit embann ur bajenn e tleoc’h sevel ur pennad-skrid.
 		Ret eo sevel ur rubrikenn d’an nebeutañ evit-se. Gallout a rit sevel unan e lañser "Embann" en ur klikañ war "Rubrikennoù".',
@@ -38,6 +42,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// E
 	'explication_activer_compagnon' => 'Ouzhpennañ a ra an ambrouger evezhiadennoù er pajennoù al lec’h prevez evit sikour ac’hanoc’h o implijout SPIP. Ezhomm hoc’h eus gweredekaet anezhañ ?',
+	'explication_reinitialiser_compagnon' => 'Ne vez dispaket muioc’h ar gemenadennoù bet gwelet dija  gant un aozer.
+C’hoant peus adkorañ ar gemenadennoù-se ?',
 
 	// L
 	'label_activer_compagnon' => 'Gweredekaat an ambrouger ?',
