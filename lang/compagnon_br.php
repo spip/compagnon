@@ -25,6 +25,8 @@ En ur glikañ warnañ, e vo tu deoc’h kemmañ e anv, met ivez stagañ ul logo 
 		',
 	'c_article_redaction' => 'Ar pennad-mañ zo war-ober da skrivañ',
 	'c_article_redaction_redacteur' => 'Ar pennad-mañ zo war-ober da skrivañ',
+	'c_article_redaction_redacteur_texte' => 'Evit kinnig ho pennad-skrid da verourien ar lec’hienn ha d’ar re-all,
+’barzh ar stern a gostez, kemmit « O skrivañ emer » gant « kinniget d’an embann ». ',
 	'c_article_redaction_texte' => 'Evit embann ar pennad-mañ war al lec’h publik ret eo cheñch e statud.
 		Er stern a-gostez chenchit "war-dro da skrivañ" en "embannet enlinenn".',
 	'c_articles_creer' => 'Penaos krouiñ ur pennad-skrid ?',
@@ -32,7 +34,13 @@ En ur glikañ warnañ, e vo tu deoc’h kemmañ e anv, met ivez stagañ ul logo 
 		ma n’eus rubrikenn ebet en ho lec’h.
 		Gallout a rit krouiñ anezhi el lañser "Embann", ha goude "Rubrikennoù" .',
 	'c_job' => 'Labourioù da ober…',
+	'c_job_texte' => 'Ar bajenn-mañ a sav roll al labourioù mererezh da vezañ kaset da benn gant SPIP. Al labourioù-maña vez a vez graet bep an amzer 
+pe en un taol nemetken evit meriaduroù a-bouezh bet goulennet gant an astennoù plugin,
+e-giz kas posteloù a-druilh-drast.',
 	'c_rubrique_publier' => 'Krouit un embann skrid',
+	'c_rubrique_publier_texte' => 'Ne vo gwelet ur rubrikenn war al lec’hienn foran
+nemet pa vo  ur dra bennk embannet e-barzh ; dre skouer : ur pennad-skrid bet embannet.
+Setu savit ur pennad-skrid. Tu zo en ober dre ar bajenn-mañ, dindan diskrivadenn ho rubrikenn.',
 	'c_rubriques_creer' => 'Embannit ur rubrikenn gentañ !',
 	'c_rubriques_creer_texte' => 'Framm al lec’h eo ar rubrikennoù ; galllout a rit krouiñ pennadoù-skrid e pep unan.
 		Kinnig a rit krouiñ ur c’hentañ rubrikenn.',
