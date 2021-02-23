@@ -16,7 +16,7 @@
 #SET{foncee,#ENV{couleur_foncee,3874b0}}
 #SET{left,#ENV{ltr}|choixsiegal{left,left,right}}
 #SET{right,#ENV{ltr}|choixsiegal{left,right,left}}
-#SET{abs,#ENV{ltr}|choixsiegal{left,-10,483}}
+#SET{abs,#ENV{ltr}|choixsiegal{left,#GET{right},#GET{left}}}
 
 /* ----- compagnon (extends box) ----- */
 .compagnon {position:relative;}
@@ -26,7 +26,7 @@
 	color:#333;
 	background-color:#fcfcfc;
 	background-image:url([(#CHEMIN_IMAGE{compagnon_gris-64.png}|image_sepia{#GET{foncee}|couleur_eclaircir}|extraire_attribut{src})]);
-	background-position: #GET{abs}px -10px;
+	background-position: top #GET{abs};
 	background-repeat: no-repeat;
 	
 }
