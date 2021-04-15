@@ -24,11 +24,24 @@
 	border:2px solid ##GET{foncee};
 	border-radius:10px;
 	color:#333;
+  position:relative;
 	background-color:#fcfcfc;
-	background-image:url([(#CHEMIN_IMAGE{compagnon_gris-64.png}|image_sepia{#GET{foncee}|couleur_eclaircir}|extraire_attribut{src})]);
-	background-position: #GET{abs}px -10px;
+}
+.compagnon .inner::before {
+	content:'';
+	display: block;
+	position: absolute;
+	border-radius:8px;
+	#GET{left}: 0;
+	top:0;
+	width: 54px;
+	height: 54px;
+	background-image:url([(#CHEMIN_IMAGE{compagnon-xx.svg})]);
+	background-position: bottom #GET{right};
 	background-repeat: no-repeat;
-	
+	background-size:64px;
+  filter: grayscale(80%) hue-rotate(25deg);
+  opacity:0.6;
 }
 .compagnon .inner .hd {padding-#GET{left}:60px;}
 .compagnon .inner .bd {padding-#GET{left}:60px;}
