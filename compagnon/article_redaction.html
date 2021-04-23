@@ -1,6 +1,6 @@
 <BOUCLE_article_en_redaction(ARTICLES){statut=prepa}{id_article}>
 [(#ENV{fermer}|non)
-[(#BOITE_OUVRIR{<:compagnon:c_article_redaction:>,compagnon})]
+[(#BOITE_OUVRIR{[(#CHEMIN_IMAGE{compagnon-picto-xx.svg}|balise_svg{'',picto-compagnon}) ]<:compagnon:c_article_redaction:>,compagnon})]
 
 <:compagnon:c_article_redaction_texte:>
 
