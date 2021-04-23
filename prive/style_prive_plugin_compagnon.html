@@ -13,9 +13,18 @@
 #HTTP_HEADER{Vary: Accept-Encoding}
 
 :root {
-	--compagnon-picto-size: 4em;
+	--compagnon-picto-size: 2.5em;
 	--compagnon-border-radius: calc(var(--spip-border-radius) * 2);
 	--compagnon-border-width: 2px;
+}
+
+@media (min-width: 768px) {
+	:root {
+		--compagnon-picto-size: 4em;
+	}
+}
+.lat {
+	--compagnon-picto-size: 2.5em;
 }
 
 /**
@@ -55,7 +64,7 @@
 /* Header, body, footer */
 .box.compagnon .box__header,
 .box.compagnon .box__body {
-	padding-#LEFT: calc(var(--compagnon-picto-size) + 1em);
+	padding-#LEFT: calc(var(--compagnon-picto-size) + 0.5em);
 }
 .box.compagnon .box__header {
 	min-height: 2.5em;
