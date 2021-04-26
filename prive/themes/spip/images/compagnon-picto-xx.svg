@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="64" height="64">
-	<circle class="fond" cx="256" cy="256" fill="#4f4359" r="256"/>
-	<g transform="rotate(-25 405.661 21.073) scale(.66695)" stroke-width="1.499">
-		<circle class="visage" cx="255.999" cy="256" fill="#fed940" r="179.923"/>
-		<circle class="visage-trait" cx="193.811" cy="185" fill="#7f6866" r="28.645"/>
-		<circle class="visage-trait" cx="318.189" cy="185" fill="#7f6866" r="28.645"/>
-		<path class="visage-trait" d="M256 370.001c-58.05 0-105.277-47.227-105.277-105.277h35c0 38.751 31.526 70.277 70.277 70.277 38.751 0 70.277-31.526 70.277-70.277h35c0 58.05-47.227 105.277-105.277 105.277z" fill="#7f6866"/>
-	</g>
-	<path class="ombre" d="M341.219 170.89l-.313.313a120 120 0 0 1 23.844 34.078 120 120 0 0 1-58.031 159.469 120 120 0 0 1-135.5-23.844l-.39.39 159.64 159.642A256 256 0 0 0 500.89 330.562L341.219 170.891z" fill="#372a44"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <circle fill="#666" cx="32" cy="32" r="32"/>
+  <g transform="rotate(-25 405.661 21.073) scale(.66695)">
+    <circle fill="#fed940" cx="93.5" cy="-190.3" r="22.5" />
+    <circle fill="#666" cx="85.8" cy="-199.2" r="3.6"/>
+    <circle fill="#666" cx="101.3" cy="-199.2" r="3.6"/>
+    <path fill="#666" d="M93.5-176.1c-7.3 0-13.2-5.9-13.2-13.2h4.4c0 4.8 3.9 8.8 8.8 8.8 4.8 0 8.8-3.9 8.8-8.8h4.4c0 7.3-5.9 13.2-13.2 13.2z"/>
+  </g>
 </svg>
