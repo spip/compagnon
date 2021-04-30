@@ -80,6 +80,11 @@ function compagnonage($flux, $pipeline) {
 	$moi = $GLOBALS['visiteur_session'];
 	$deja_vus = lire_config('compagnon/' . $moi['id_auteur']);
 
+	// si cet auteur ne veut rien voir… bah… pas la peine de continuer
+	if (isset($deja_vus['all']) and $deja_vus['all']) {
+		return $flux;
+	}
+
 	$flux['args']['pipeline'] = $pipeline;
 	$flux['args']['deja_vus'] = $deja_vus;
 	$aides = pipeline('compagnon_messages', array('args' => $flux['args'], 'data' => array()));

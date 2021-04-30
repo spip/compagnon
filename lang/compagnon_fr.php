@@ -6,6 +6,9 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 }
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
+	// B
+	'bouton_tout_compris_explication' => 'Si vous connaissez déjà SPIP, vous pouvez décider d’ignorer tous les messages du compagnon ; sinon, chaque message peut être fermé individuellement.',
+	'bouton_tout_compris' => 'Masquer tous les messages du compagnon',
 
 	// C
 	'c_accueil_bienvenue' => 'Bienvenue @nom@ !',
