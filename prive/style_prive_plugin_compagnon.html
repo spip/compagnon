@@ -16,6 +16,7 @@
 	--compagnon-picto-size: 2.5em;
 	--compagnon-border-radius: calc(var(--spip-border-radius) * 2);
 	--compagnon-border-width: 2px;
+	--compagnon-icon-spacing-x: 1em;
 }
 
 @media (min-width: 768px) {
@@ -93,6 +94,12 @@
 	margin: 0;
 	font-size: 1em;
 }
+.box.compagnon button.submit:after {
+	display:inline-block;
+	content:"✘";
+	padding-#LEFT: var(--compagnon-icon-spacing-x);
+	opacity: .5;
+}
 .box.compagnon button.submit:not(:hover):not(:focus) {
 	background-color: var(--spip-color-theme-lighter);
 	color: var(--spip-color-theme-dark);
@@ -100,6 +107,10 @@
 .box.compagnon button.submit:hover,
 .box.compagnon button.submit:focus {
 	border-color: var(--spip-btn-color-main-hover-bg);
+}
+.box.compagnon button.submit:hover:after,
+.box.compagnon button.submit:focus:after {
+	opacity: 1;
 }
 
 /* Cible dans le pied à gauche */
