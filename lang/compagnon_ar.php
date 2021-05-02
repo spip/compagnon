@@ -9,6 +9,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
+	// B
+	'bouton_tout_compris' => 'حجب كل رسائل الرفيق',
+	'bouton_tout_compris_explication' => 'اذا كنتم تتقنون SPIP، يمكنكم تجاهل كل رسائل الرفيق. عدا عن ذلك يمكن إغلاق كل رسالة على حدة.',
+
 	// C
 	'c_accueil_bienvenue' => 'أهلاً وسهلاً @nom@!',
 	'c_accueil_configurer_site' => 'إعداد موقعك',
