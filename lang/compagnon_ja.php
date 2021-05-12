@@ -9,6 +9,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
+	// B
+	'bouton_tout_compris' => '仲間さんのメッセージを全て隠す',
+	'bouton_tout_compris_explication' => 'すでにSPIPに慣れている方は、仲間さんのメッセージをすべて無視することが出来ますが、そうでない場合には、各メッセージを個別に閉じることもできます。',
+
 	// C
 	'c_accueil_bienvenue' => '@nom@ようこそ！',
 	'c_accueil_configurer_site' => 'サイト環境を設定する',
