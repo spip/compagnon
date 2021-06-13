@@ -9,6 +9,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
+	// B
+	'bouton_tout_compris' => 'Mouchañ holl kemennadoù ar c’heneil',
+	'bouton_tout_compris_explication' => 'Ma anavezoc’h SPIP dija, e c’halloc’h divizout ober fae war holl kemenndoù ar c’heneil ; giz’all, pep kemenadenn a c’hall bezañ serret unan hag unan.',
+
 	// C
 	'c_accueil_bienvenue' => 'Degemer mat @nom@',
 	'c_accueil_configurer_site' => 'Kefluniañ ho lec’h',
