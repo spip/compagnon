@@ -9,6 +9,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
+	// B
+	'bouton_tout_compris' => 'Ocultar todos los mensajes del acompañante',
+	'bouton_tout_compris_explication' => 'Si ya está familiarizado con SPIP, puede elegir ignorar todos los mensajes del acompañante; de lo contrario, cada mensaje puede cerrarse individualmente.',
+
 	// C
 	'c_accueil_bienvenue' => '¡Bienvenido/a @nom@!',
 	'c_accueil_configurer_site' => 'Configurar su sitio',
