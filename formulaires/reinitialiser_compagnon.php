@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Gestion du formulaire de réinitialisation des messages de compagnon
  * validés (vus) par des auteurs.
@@ -21,7 +22,7 @@ if (!defined('_ECRIRE_INC_VERSION')) {
  *     Environnement du formulaire
  **/
 function formulaires_reinitialiser_compagnon_charger() {
-	return array('qui' => 'moi');
+	return ['qui' => 'moi'];
 }
 
 /**
@@ -42,7 +43,7 @@ function formulaires_reinitialiser_compagnon_traiter() {
 		ecrire_config('compagnon/config', $config);
 	}
 
-	return array(
+	return [
 		'message_ok' => _T('compagnon:reinitialisation_ok')
-	);
+	];
 }

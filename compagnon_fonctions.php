@@ -22,13 +22,13 @@ if (!defined('_ECRIRE_INC_VERSION')) {
  *     Le texte traduit.
  **/
 function filtre_ok_aleatoire_dist() {
-	$alea = array(
+	$alea = [
 		'compagnon:ok',
 		'compagnon:ok_jai_compris',
 		'compagnon:ok_bien',
 		'compagnon:ok_merci',
 		'compagnon:ok_parfait',
-	);
+	];
 
 	return _T($alea[array_rand($alea)]);
 }
