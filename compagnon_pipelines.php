@@ -87,7 +87,7 @@ function compagnonage($flux, $pipeline) {
 
 	$flux['args']['pipeline'] = $pipeline;
 	$flux['args']['deja_vus'] = $deja_vus;
-	$aides = pipeline('compagnon_messages', array('args' => $flux['args'], 'data' => array()));
+	$aides = pipeline('compagnon_messages', ['args' => $flux['args'], 'data' => []]);
 
 	if (!$aides) {
 		return $flux;
@@ -101,7 +101,7 @@ function compagnonage($flux, $pipeline) {
 		if (isset($aide['statuts']) and $statuts = $aide['statuts']) {
 			$ok = false;
 			if (!is_array($statuts)) {
-				$statuts = array($statuts);
+				$statuts = [$statuts];
 			}
 			if (in_array('webmestre', $statuts) and ($moi['webmestre'] == 'oui')) {
 				$ok = true;
@@ -119,10 +119,10 @@ function compagnonage($flux, $pipeline) {
 			// demande d'un squelette
 			if (isset($aide['inclure']) and $inclure = $aide['inclure']) {
 				unset($aide['inclure']);
-				$ajout = recuperer_fond($inclure, array_merge($flux['args'], $aide), array('ajax' => true));
+				$ajout = recuperer_fond($inclure, array_merge($flux['args'], $aide), ['ajax' => true]);
 			} // sinon les textes sont fournis
 			else {
-				$ajout = recuperer_fond('compagnon/_boite', $aide, array('ajax' => true));
+				$ajout = recuperer_fond('compagnon/_boite', $aide, ['ajax' => true]);
 			}
 
 			$ajouts .= $ajout;

@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Gestion de l'action compagnon
  *

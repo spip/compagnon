@@ -23,10 +23,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
  **/
 function compagnon_upgrade($nom_meta_base_version, $version_cible) {
 
-	$maj = array();
-	$maj['create'] = array(
-		array('compagnon_create')
-	);
+	$maj = [];
+	$maj['create'] = [
+		['compagnon_create']
+	];
 	include_spip('base/upgrade');
 	maj_plugin($nom_meta_base_version, $version_cible, $maj);
 }
