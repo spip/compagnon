@@ -9,6 +9,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
+	// B
+	'bouton_tout_compris' => 'Nascondi tutti i messaggi di spiegazione',
+	'bouton_tout_compris_explication' => 'Se conosci già SPIP, puoi decidere di ignorare tutti i messaggi di spiegazione; in caso contrario, ogni messaggio può essere chiuso singolarmente.',
+
 	// C
 	'c_accueil_bienvenue' => 'Benvenuto @nom@ !',
 	'c_accueil_configurer_site' => 'Configurate il vostro sito',
@@ -20,7 +24,7 @@ Facendo clic, è possibile modificare il nome, ma anche dargli un logo e uno slo
 È necessario che per creare almeno una rubrica. È possibile farlo nel menu "Modifica" cliccando su "Rubriche".',
 	'c_accueil_texte' => 'Siete appena entrati nell’area privata di SPIP.',
 	'c_accueil_texte_revenir' => 'Questa pagina mostra l’ultima attività editoriale sul tuo sito.
-Puoi visitare questa pagina in qualsiasi momento facendo clic sull’icona home, sulla parte superiore, sotto il tuo nome.', # MODIF
+Puoi visitare questa pagina in qualsiasi momento facendo clic sull’icona home, sulla parte superiore, sotto il tuo nome.',
 	'c_article_redaction' => 'L’articolo è in corso di redazione',
 	'c_article_redaction_redacteur' => 'L’articolo è in fase di redazione',
 	'c_article_redaction_redacteur_texte' => 'Per inviare il tuo articolo per gli amministratori del sito e di altri editori, attraverso il pulsante a lato, cambiare da "in scrittura" a "proposto per la pubblicazione."',
@@ -38,7 +42,9 @@ Quindi creare un articolo. Puoi farlo da questa pagina sotto la descrizione del 
 	'c_rubriques_creer' => 'Crea la prima rubrica!',
 	'c_rubriques_creer_texte' => 'Le rubriche sono la struttura di base del sito, è possibile creare elementi ciascuna.
 Iniziare con la creazione di una prima rubrica.',
-	'c_sites_creer' => 'Come creare o importare uno sito ?', # RELIRE
+	'c_sites_creer' => 'Come creare o importare uno sito ?',
+	'c_sites_creer_texte' => 'Non sarai in grado di creare o importare un sito da questa pagina finché non avrai creato una rubrica.
+Puoi farlo dal menu "Modifica", quindi "Rubriche".',
 
 	// E
 	'explication_activer_compagnon' => 'L’assistente aggiunge commenti su alcune pagine dello spazio privato per contribuire a rendere SPIP più facile da usare. Vuoi per attivarlo?',
