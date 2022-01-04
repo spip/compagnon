@@ -72,8 +72,9 @@
 	<langue code="oc_ni_mis" url="https://trad.spip.net/tradlang_module/compagnon?lang_cible=oc_ni_mis" total="39" traduits="37" relire="0" modifs="0" nouveaux="2" pourcent="94.87">
 		<traducteur nom="sylvain" lien="https://trad.spip.net/auteur/sylvain" />
 	</langue>
-	<langue code="pt" url="https://trad.spip.net/tradlang_module/compagnon?lang_cible=pt" total="39" traduits="34" relire="0" modifs="1" nouveaux="4" pourcent="87.18">
+	<langue code="pt" url="https://trad.spip.net/tradlang_module/compagnon?lang_cible=pt" total="39" traduits="35" relire="2" modifs="2" nouveaux="0" pourcent="89.74">
 		<traducteur nom="Cláudia Anjos Lopes" lien="https://trad.spip.net/auteur/claudia_a_lopes" />
+		<traducteur nom="Jorge Paulo Malveira Pimentel Dos Santos" lien="https://trad.spip.net/auteur/jorge-paulo-malveira-pimentel-dos-santos" />
 	</langue>
 	<langue code="pt_br" url="https://trad.spip.net/tradlang_module/compagnon?lang_cible=pt_br" total="39" traduits="39" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 		<traducteur nom="Ricardo Porto" lien="https://trad.spip.net/auteur/ricardo-porto" />

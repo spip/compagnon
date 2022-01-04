@@ -9,6 +9,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
+	// B
+	'bouton_tout_compris' => 'Ocultar todas as mensagens do companheiro', # RELIRE
+	'bouton_tout_compris_explication' => 'Se você já conhece o SPIP, pode optar por ignorar todas as mensagens do Companheiro; caso contrário, cada mensagem pode ser fechada individualmente.', # RELIRE
+
 	// C
 	'c_accueil_bienvenue' => 'Bem-vindo @nom@ !',
 	'c_accueil_configurer_site' => 'Configurar o seu sítio',
@@ -31,6 +35,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_rubrique_publier_texte' => 'Uma rubrica é visível no sítio público apenas a partir do momento em que contém algum conteúdo publicado (por exemplo, um artigo publicado). Portanto, crie um artigo. Pode fazê-lo a partir desta página, abaixo da descrição da sua rubrica.',
 	'c_rubriques_creer' => 'Crie a primeira rubrica !',
 	'c_rubriques_creer_texte' => 'LAs rubricas são a estrutura básica do sítio. Pode criar artigos em cada uma delas. Comece por criar uma primeira rubrica.',
+	'c_sites_creer' => 'Como criar ou importar um site ?',
+	'c_sites_creer_texte' => 'Você só poderá criar ou importar um sítio com base nesta página
+somente se já criou uma seção Rubrica em seu sítio.
+Você pode criá-lo no menu “Editar” e, em seguida, em “Itens”.', # MODIF
 
 	// E
 	'explication_activer_compagnon' => 'O guia adiciona comentários em algumas páginas da área privada, para ajudar a trabalhar com SPIP. Deseja activá-lo?',
