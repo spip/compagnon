@@ -10,7 +10,7 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// C
-	'compagnon_description' => 'O guia oferece assistência as utilizadores durante a sua primeira visita à área privada de SPIP.',
+	'compagnon_description' => 'O guia oferece assistência aos utilizadores durante a sua primeira visita à área privada de SPIP.', # MODIF
 	'compagnon_nom' => 'Guia',
 	'compagnon_slogan' => 'Assistente de iniciação a SPIP'
 );
