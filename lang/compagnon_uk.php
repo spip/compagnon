@@ -9,6 +9,10 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
+	// B
+	'bouton_tout_compris' => 'Сховати всі повідомлення плагіну',
+	'bouton_tout_compris_explication' => 'Якщо ви добре знайомі з системою SPIP ви можете відмовитися від перегляду всіх інформаційних повідомлень.',
+
 	// C
 	'c_accueil_bienvenue' => 'Доброго дня, @nom@!',
 	'c_accueil_configurer_site' => 'Налаштувати сайт',
