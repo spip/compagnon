@@ -4,12 +4,8 @@
 
 ### Added
 
-- Fichiers Readme et Changelog
+- Fichier README.md
 
 ### Changed
 
 - Compatible SPIP 4.2-dev
-
-### Fixed
-
-- Rotation de l’icone compagnon en langues RTL
